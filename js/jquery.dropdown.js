@@ -85,7 +85,7 @@
 							'<li data-value="' + val + '"><span>' + label + '</span></li>';
 				} else {
 					classes !== undefined ? 
-            					label = '<span class="' + classes + '">' + label + '</span>' : ;
+            					label = '<span class="' + classes + '">' + label + '</span>' : '';
 				}
 
 				if( selected ) {
